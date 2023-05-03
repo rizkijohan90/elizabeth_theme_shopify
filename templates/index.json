@@ -3,11 +3,19 @@
     "featured-collection": {
       "type": "featured-collection",
       "settings": {
-        "featured_collection": "all"
+        "title": "Featured Collection",
+        "featured_collection": "all",
+        "number_of_products_to_show": 4
+      }
+    },
+    "db86e2d9-1ae0-4d04-96e3-e34fefe6a20f": {
+      "type": "contact-form",
+      "settings": {
       }
     }
   },
   "order": [
-    "featured-collection"
+    "featured-collection",
+    "db86e2d9-1ae0-4d04-96e3-e34fefe6a20f"
   ]
 }
