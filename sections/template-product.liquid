@@ -62,7 +62,7 @@
           name="id"
           value="{{ selected_variant.id }}">
 
-        {% for block in section.block %}
+        {% for block in section.blocks %}
           {% case block.type %}
             {% when 'vendor' %}
             <div class="my-3">
